@@ -1,7 +1,8 @@
 {
-  "name": "@cucumber/cucumber-expressions",
+  "name": "@cucumber/try-cucumber-expressions",
+  "private": true,
   "version": "16.0.0",
-  "description": "Cucumber Expressions - a simpler alternative to Regular Expressions",
+  "description": "Try Cucumber Expressions in your browser",
   "type": "module",
   "main": "dist/cjs/src/index.js",
   "types": "dist/cjs/src/index.d.ts",
@@ -23,9 +24,9 @@
     "build": "npm run build:cjs && npm run build:esm && npm run build:try",
     "build:try": "npm run build:try:typecheck && npm run build:try:js && cross-env NODE_ENV=production npm run build:try:css",
     "build:try:typecheck": "tsc --build tsconfig.build-try.json",
-    "build:try:js": "esbuild try/index.tsx --bundle --minify --sourcemap --outfile=../docs/index.js",
-    "build:try:serve": "esbuild try/index.tsx --bundle --serve --servedir=../docs",
-    "build:try:css": "postcss try/style.css --output ../docs/style.css",
+    "build:try:js": "esbuild try/index.tsx --bundle --minify --sourcemap --outfile=docs/index.js",
+    "build:try:serve": "esbuild try/index.tsx --bundle --serve --servedir=docs",
+    "build:try:css": "postcss try/style.css --output docs/style.css",
     "test": "mocha && npm run test:cjs",
     "test:cjs": "npm run build:cjs && mocha --no-config dist/cjs/test",
     "stryker": "cross-env CUCUMBER_EXPRESSIONS_TEST_DATA_DIR=$(pwd)/../testdata stryker run",
@@ -54,9 +55,8 @@
     "@codemirror/commands": "6.1.0",
     "@codemirror/state": "6.1.2",
     "@codemirror/view": "6.2.4",
+    "@cucumber/cucumber-expressions": "16.0.0",
     "@headlessui/react": "1.7.2",
-    "@stryker-mutator/core": "6.2.2",
-    "@stryker-mutator/mocha-runner": "6.2.2",
     "@tailwindcss/forms": "0.5.3",
     "@types/glob": "7.2.0",
     "@types/js-yaml": "4.0.5",
@@ -78,8 +78,6 @@
     "eslint-plugin-react": "7.31.8",
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-simple-import-sort": "7.0.0",
-    "glob": "8.0.3",
-    "js-yaml": "4.1.0",
     "mocha": "10.0.0",
     "npm-check-updates": "16.2.1",
     "postcss": "8.4.16",
@@ -91,12 +89,8 @@
     "react-dom": "18.2.0",
     "react-router-dom": "5.3.3",
     "tailwindcss": "3.1.8",
-    "ts-node": "10.9.1",
     "typescript": "4.8.3",
     "use-query-params": "1.2.3"
-  },
-  "dependencies": {
-    "regexp-match-indices": "1.0.2"
   },
   "directories": {
     "test": "test"
