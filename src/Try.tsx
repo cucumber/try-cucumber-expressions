@@ -1,3 +1,4 @@
+/* eslint-disable simple-import-sort/imports */
 import { Switch } from '@headlessui/react'
 import React, { Dispatch, ReactNode, SetStateAction, useMemo, useState } from 'react'
 import { BooleanParam, JsonParam, StringParam, useQueryParam, withDefault } from 'use-query-params'
@@ -9,7 +10,7 @@ import {
   GeneratedExpression,
   ParameterType,
   ParameterTypeRegistry,
-} from '../src/index.js'
+} from '@cucumber/cucumber-expressions'
 import { ExpressionEditor } from './codemirror/ExpressionEditor.js'
 import { TextEditor } from './codemirror/TextEditor.js'
 import { CopyButton } from './useCopyToClipboard.js'
