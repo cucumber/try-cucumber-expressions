@@ -52,7 +52,7 @@
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.31.8",
     "eslint-plugin-react-hooks": "4.6.0",
-    "eslint-plugin-simple-import-sort": "7.0.0",
+    "eslint-plugin-simple-import-sort": "8.0.0",
     "npm-check-updates": "16.2.1",
     "postcss": "8.4.16",
     "postcss-cli": "10.0.0",
