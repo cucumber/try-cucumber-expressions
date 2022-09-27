@@ -1,7 +1,7 @@
 import { EditorSelection, EditorState } from '@codemirror/state'
+import { Argument } from '@cucumber/cucumber-expressions'
 import React from 'react'
 
-import { Argument } from '../../src'
 import argTooltipExtension from './argTooltipExtension.js'
 import { CodeMirrorElement, useEditorView, useExtension } from './codemirror.js'
 import highlightArgsExtension from './highlightArgsExtension.js'

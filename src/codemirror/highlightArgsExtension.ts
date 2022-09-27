@@ -1,6 +1,5 @@
 import { Decoration, DecorationSet, ViewPlugin } from '@codemirror/view'
-
-import { Argument } from '../../src'
+import { Argument } from '@cucumber/cucumber-expressions'
 
 export default function highlightArgsExtension(args: readonly Argument[] | null | undefined) {
   return ViewPlugin.define(

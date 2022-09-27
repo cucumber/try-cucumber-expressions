@@ -1,7 +1,6 @@
 import { EditorState, StateField } from '@codemirror/state'
 import { showTooltip, Tooltip } from '@codemirror/view'
-
-import { Argument } from '../../src'
+import { Argument } from '@cucumber/cucumber-expressions'
 
 export default function argTooltipExtension(args: readonly Argument[] | undefined | null) {
   return StateField.define<readonly Tooltip[]>({
