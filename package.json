@@ -10,8 +10,8 @@
     "build:js": "esbuild src/index.tsx --bundle --minify --sourcemap --outfile=docs/index.js",
     "build:serve": "esbuild src/index.tsx --bundle --serve --servedir=docs",
     "build:css": "postcss src/style.css --output docs/style.css",
-    "eslint-fix": "eslint --ext ts,tsx --max-warnings 0 --fix src test try",
-    "eslint": "eslint --ext ts,tsx --max-warnings 0 src test try",
+    "eslint-fix": "eslint --ext ts,tsx --max-warnings 0 --fix src",
+    "eslint": "eslint --ext ts,tsx --max-warnings 0 src",
     "upgrade": "npm-check-updates --upgrade"
   },
   "repository": {

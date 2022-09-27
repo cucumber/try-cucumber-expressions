@@ -40,14 +40,6 @@
     "simple-import-sort/exports": "error",
     "react/prop-types": "off"
   },
-  "overrides": [
-    {
-      "files": ["test/**"],
-      "rules": {
-        "@typescript-eslint/no-non-null-assertion": "off"
-      }
-    }
-  ],
   "settings": {
     "react": {
       "pragma": "React",
