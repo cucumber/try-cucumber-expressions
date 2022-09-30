@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "npm run build:typecheck && npm run build:js && cross-env NODE_ENV=production npm run build:css",
-    "build:typecheck": "tsc --build tsconfig.build-try.json",
+    "build:typecheck": "tsc --build tsconfig.json",
     "build:js": "esbuild src/index.tsx --bundle --minify --sourcemap --outfile=docs/index.js",
     "build:serve": "esbuild src/index.tsx --bundle --serve --servedir=docs",
     "build:css": "postcss src/style.css --output docs/style.css",
