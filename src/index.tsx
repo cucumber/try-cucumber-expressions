@@ -16,7 +16,7 @@ root.render(
     <QueryParamProvider adapter={ReactRouter6Adapter}>
       <Routes>
         <Route
-          path="/"
+          path="/*"
           element={
             <Try
               defaultExpressionText={'there is/are {int} flight(s) from {airport}'}
