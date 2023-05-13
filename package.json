@@ -33,7 +33,7 @@
   "devDependencies": {
     "@codemirror/commands": "6.2.4",
     "@codemirror/state": "6.2.0",
-    "@codemirror/view": "6.11.1",
+    "@codemirror/view": "6.11.2",
     "@cucumber/cucumber-expressions": "16.1.2",
     "@headlessui/react": "1.7.14",
     "@tailwindcss/forms": "0.5.3",
