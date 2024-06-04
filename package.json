@@ -31,9 +31,9 @@
   },
   "homepage": "https://github.com/cucumber/try-cucumber-expressions#readme",
   "devDependencies": {
-    "@codemirror/commands": "6.5.0",
+    "@codemirror/commands": "6.6.0",
     "@codemirror/state": "6.4.1",
-    "@codemirror/view": "6.26.4",
+    "@codemirror/view": "6.27.0",
     "@cucumber/cucumber-expressions": "17.1.0",
     "@headlessui/react": "1.7.19",
     "@tailwindcss/forms": "0.5.7",
