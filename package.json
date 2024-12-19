@@ -33,7 +33,7 @@
     "@codemirror/commands": "6.7.1",
     "@codemirror/state": "6.5.0",
     "@codemirror/view": "6.36.1",
-    "@cucumber/cucumber-expressions": "17.1.0",
+    "@cucumber/cucumber-expressions": "18.0.1",
     "@headlessui/react": "1.7.19",
     "@tailwindcss/forms": "0.5.9",
     "@types/react": "18.3.17",
