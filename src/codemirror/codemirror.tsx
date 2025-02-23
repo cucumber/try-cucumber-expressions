@@ -54,9 +54,13 @@ export const CodeMirrorElement: React.FC<{
 
   useLayoutEffect(() => {
     domWrapper?.appendChild(view.dom)
-    autoFocus && view.focus()
+    if (autoFocus) {
+      view.focus()
+    }
     return () => {
-      domWrapper?.firstElementChild && domWrapper?.removeChild(domWrapper.firstElementChild)
+      if (domWrapper?.firstElementChild) {
+        domWrapper.removeChild(domWrapper.firstElementChild)
+      }
     }
   }, [autoFocus, domWrapper, view])
 
