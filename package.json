@@ -58,7 +58,7 @@
     "postcss-cli": "11.0.1",
     "prettier": "^3.5.2",
     "pretty-quick": "4.2.2",
-    "query-string": "9.2.2",
+    "query-string": "9.3.0",
     "react": "19.1.1",
     "react-dom": "19.1.1",
     "react-router-dom": "7.8.2",
