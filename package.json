@@ -32,7 +32,7 @@
   "devDependencies": {
     "@codemirror/commands": "6.8.1",
     "@codemirror/state": "6.5.2",
-    "@codemirror/view": "6.38.2",
+    "@codemirror/view": "6.38.3",
     "@cucumber/cucumber-expressions": "18.0.1",
     "@eslint/compat": "^1.2.7",
     "@eslint/eslintrc": "^3.3.0",
