@@ -64,6 +64,6 @@
     "react-router-dom": "7.9.6",
     "tailwindcss": "^4.0.8",
     "typescript": "5.9.3",
-    "use-query-params": "2.2.1"
+    "use-query-params": "2.2.2"
   }
 }
