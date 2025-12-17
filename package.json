@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/cucumber/try-cucumber-expressions#readme",
   "devDependencies": {
-    "@codemirror/commands": "6.10.0",
+    "@codemirror/commands": "6.10.1",
     "@codemirror/state": "6.5.2",
     "@codemirror/view": "6.39.4",
     "@cucumber/cucumber-expressions": "18.0.1",
