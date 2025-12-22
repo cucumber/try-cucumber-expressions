@@ -31,7 +31,7 @@
   "homepage": "https://github.com/cucumber/try-cucumber-expressions#readme",
   "devDependencies": {
     "@codemirror/commands": "6.10.1",
-    "@codemirror/state": "6.5.2",
+    "@codemirror/state": "6.5.3",
     "@codemirror/view": "6.39.5",
     "@cucumber/cucumber-expressions": "18.0.1",
     "@eslint/compat": "^2.0.0",
