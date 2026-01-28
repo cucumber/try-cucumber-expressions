@@ -33,7 +33,7 @@
     "@codemirror/commands": "6.10.1",
     "@codemirror/state": "6.5.4",
     "@codemirror/view": "6.39.11",
-    "@cucumber/cucumber-expressions": "18.1.0",
+    "@cucumber/cucumber-expressions": "19.0.0",
     "@eslint/compat": "^2.0.0",
     "@eslint/eslintrc": "^3.3.0",
     "@eslint/js": "^9.21.0",
